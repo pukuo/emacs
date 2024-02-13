@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: emacsshell
+# key: <es
+# --
+#+BEGIN_SRC shell
+$0
+#+END_SRC

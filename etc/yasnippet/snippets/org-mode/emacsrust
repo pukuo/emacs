@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: emacsrust
+# key: <er
+# --
+#+BEGIN_SRC rust
+$0
+#+END_SRC

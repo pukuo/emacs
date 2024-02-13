@@ -1706,7 +1706,20 @@ Emacs自带的vc设置。
   (magit-ediff-dwim-show-on-hunks t))
 #+end_src
 
-
+** Hugo
+#+BEGIN_SRC emacs-lisp
+    ;; 安装easy-hugo
+  (use-package easy-hugo
+    :ensure t
+    :bind (("C-h C-n" . easy-hugo)
+           ("C-h C-p" . easy-hugo-preview)))
+  ;; 设置Hugo的基本配置信息
+  (setq easy-hugo-basedir "~/Hugo/Sites/blog")
+  (setq easy-hugo-url "https://pukuo.github.io/")
+  (setq easy-hugo-preview-url "http://localhost:1313/")
+  (setq easy-hugo-postdir "content/posts")
+  (setq easy-hugo-default-ext ".org")
+#+END_SRC
 ** rust
 #+BEGIN_SRC emacs-lisp
   (add-hook 'rust-mode-hook 'eglot-ensure)

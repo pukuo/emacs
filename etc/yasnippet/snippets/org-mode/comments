@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: emacscomment
+# key: <ec
+# --
+#+BEGIN_COMMENT
+$0
+#+END_COMMENT
