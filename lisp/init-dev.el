@@ -27,10 +27,10 @@
   :bind (("C-h C-n" . easy-hugo)
          ("C-h C-p" . easy-hugo-preview)))
 ;; 设置Hugo的基本配置信息
-(setq easy-hugo-basedir "~/Hugo/Sites/blog")
+(setq easy-hugo-basedir "~/Hugo/Sites/guolisen.eu.org")
 (setq easy-hugo-url "https://pukuo.github.io/")
 (setq easy-hugo-preview-url "http://localhost:1313/")
-(setq easy-hugo-postdir "content/posts")
+(setq easy-hugo-postdir "content/post")
 (setq easy-hugo-default-ext ".org")
 
 (add-hook 'rust-mode-hook 'eglot-ensure)

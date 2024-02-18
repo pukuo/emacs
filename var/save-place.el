@@ -1,14 +1,10 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/guolisen/.emacs.d/"
+(("/home/guolisen/Bugfixer/rust/hello_struct/src/main.rs" . 1019)
+ ("/home/guolisen/.emacs.d/emacs-config.org" . 53460)
+ ("/home/guolisen/.emacs.d/"
   (dired-filename . "/home/guolisen/.emacs.d/elpa"))
- ("/home/guolisen/Hugo/Sites/blog/content/posts/emacs配置easy-hugo插件.org" . 83)
  ("/home/guolisen/.emacs.d/etc/yasnippet/snippets/org-mode/emacslisp" . 53)
- ("/home/guolisen/.emacs.d/emacs-config.org" . 53459)
- ("/home/guolisen/Hugo/Sites/blog/"
-  (dired-filename . "/home/guolisen/Hugo/Sites/blog/archetypes"))
- ("/home/guolisen/Hugo/Sites/blog/hugo.toml" . 2447)
  ("/home/guolisen/.emacs.d/init.el" . 692)
- ("/home/guolisen/Bugfixer/rust/hello_struct/src/main.rs" . 228)
  ("/home/guolisen/Bugfixer/rust/"
   (dired-filename . "/home/guolisen/Bugfixer/rust/rust_T"))
  ("/home/guolisen/Bugfixer/rust/rust_T/"
